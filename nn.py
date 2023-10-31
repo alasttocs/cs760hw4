@@ -1,9 +1,5 @@
-
-# Package imports
 import numpy as np
 import matplotlib.pyplot as plt
-# here planar_utils.py can be found on its github repo
-from planar_utils import plot_decision_boundary, sigmoid, load_planar_dataset
 import torch
 from torch.utils.data import Dataset
 from torch.utils.data import DataLoader
