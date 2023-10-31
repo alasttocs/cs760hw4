@@ -51,8 +51,6 @@ total = 0
 
 with torch.no_grad():
     for images, labels in test_loader:
-        # Assuming 'images' and 'labels' are the batches
-        # Process 'images' and 'labels' if needed
         images = images.view(images.size(0), -1)
         outputs = model(images)
         _, predicted = torch.max(outputs.data, 1)
